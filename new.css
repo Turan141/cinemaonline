@@ -1,0 +1,339 @@
+* {
+	padding: 0;
+margin: 0;
+text-decoration:none
+}
+
+p {
+	padding: 10px 0 20px 0;
+	line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+
+}
+
+input, textarea {
+
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+
+
+}
+
+/*------
+h1, h2 {
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+
+}
+-------*/
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+
+ul  {
+	margin: 2px 0 22px 17px;
+
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}	
+
+.main, .logo, .content {
+
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.content {
+		height: 950px;
+	}
+
+.logo {
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(images/maxresdefault.jpg);
+	margin: 0;
+	padding: 0;
+min-width: 100%;
+}
+
+.left{
+color: whitesmoke;
+font-size: 4em;
+text-align: left;
+letter-spacing: 0.1em;
+height: 150px;
+padding-top: 50px;
+padding-left: 45px;
+
+}
+
+.right {
+color: whitesmoke;
+font-size: 1.7em;
+text-align: right;
+letter-spacing: 0.1em;
+padding-right: 50px;
+padding-top: 25px;
+
+}
+
+.menubar {
+width: 100%;
+height: 50px;
+}
+
+.menubar ul{
+height: 50px;
+width: 100%;
+text-decoration: none;
+padding-left: 0 0 0 50px;
+border: solid ;
+border:  solid 3px #f2f2f2;
+background-color: #f9f9f1;
+
+}
+
+ul.ulspisok {
+float: right;
+text-decoration: none;
+background-color: #f9f9f9;
+display: flex;
+justify-content: center;
+list-style: none;
+
+
+}
+
+ul.ulspisok li {
+color: whitesmoke;
+float: left;
+text-decoration: none;
+letter-spacing: 0.1em;
+padding: 12px 5px 0px 5px;
+list-style: none;
+font-style: Georgia, serif	;
+
+}
+
+ul.ulspisok li a:hover {
+		color: blue;
+
+}
+.rightside {
+	float: right;
+	width: 224px;
+	padding-right: 70px;
+
+
+}
+
+.rightbar1{
+	float: right;
+	width: 233px;
+	border-radius: 5px;
+	border:  solid 1px #f2f2f2;
+	background-color: #f9f9f9;
+	font: normal  'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 0px 0 10px 11px;
+	color: #000;
+	
+
+}
+
+
+
+.rightbar2{
+	float: right;
+	width: 222px;
+	border-radius: 5px;
+	border:  solid 1px #f2f2f2;
+	background-color: #f9f9f9;
+	margin: 0 0 16px 0;
+	padding: 5%;
+	text-align: center;
+
+
+
+}
+
+.rightbar3{
+	float: right;
+	width: 222px;
+	border-radius: 5px;
+	border:  solid 1px #f2f2f2;
+	background-color: #f9f9f9;
+	margin: 0 0 0 16px;
+	padding: 5%;
+	font-size: 1.5em;
+	color: darkkhaki;
+	text-align: center;
+
+}
+
+a:hover {
+	color: slategray;
+}
+.content {
+	
+}
+
+.footer {
+background-color: gray;
+text-align: center;
+padding: 20px 0 20px 0;
+font-size: 0.9em;
+color: black;
+letter-spacing: 0.2em;
+height: 70px;
+margin-top: 100px;
+
+
+
+}
+
+.filmcontent {
+height: 450px;
+width: 950px;
+float: left;
+margin: 0 10px 0 50px;
+color: black;
+background-color: ;
+ transition: background-color 2s ease-out 100ms
+ line-height: 5px;
+}
+
+.firstcont {
+float: right;
+width: 150px;
+height: 280px;
+border: solid 10px #f2f2f2;
+background-color: #f9f9f9;
+border-radius: 5px;
+margin-left: 50px;
+margin-top: 50px;
+text-align: center;
+color: black;
+transition: background-color 2s ease-out 100ms
+line-height: 5px;
+padding-bottom: 20px;
+
+	}
+
+
+
+
+img:hover {
+  border: solid 10px black;
+  margin: 5px;
+
+
+}
+
+
+
+.thirdcont, .fourthcont, .secondcont {
+width: 150px;
+height: 280px;
+border: solid 10px #f2f2f2;
+background-color: #f9f9f9;
+border-radius: 5px;
+margin-left: 50px;
+margin-top: 50px;
+text-align: center;
+float: right;
+padding-bottom: 20px;
+
+}
+
+
+
+
+.btn {
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+
+}
+.rightbar1 h2 {
+	color: #136cb2;
+
+}
+
+.lables_passreg_text {
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.rightbar1 ul {
+	margin: 0;
+
+}
+
+.rightbar1 li{
+	list-style-type: none;
+	margin: 0;
+
+}
+
+.banner {
+	padding-left: 120px;
+	padding-top: 250px;
+	height: 100px;
+
+}
+
+.gamecont {
+
+height: 400px;
+
+padding-left: 50px;
+float: right;
+}
+
+
+.firstgame, .secondgame, .thirdgame, .fourthgame{
+float: right;
+width: 150px;
+height: 280px;
+border: solid 10px #f2f2f2;
+background-color: #f9f9f9;
+border-radius: 5px;
+margin-left: 50px;
+text-align: center;
+margin-top: 100px;
+color: black;
+transition: background-color 2s ease-out 100ms
+}
+
+
+.newfilms  {
+	font-size: 3em;
+	height: 50px;
+	margin-left: 50px;
+
+}
+
+.newgames {
+	font-size: 3em;
+	height: 1px;
+	
+
+}
